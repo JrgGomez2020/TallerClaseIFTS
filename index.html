@@ -13,12 +13,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6515a2f2bc.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        var productos;
+        $.getJSON("json/productos.json", function(json) {
+            productos = json;
+            console.log(productos);
+            var divproductos = $('#productos');
+            for (let index = 0; index < json.length; index++) {
+                divproductos.append('<div class="card"><img src="img/iphone11recomendado.jpg" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">' + json[index].nombre + '</h5><p class="card-text">' + json[index].caracteristica + '</p><p class="card-text">' + json[index].precio + '</p > < /div><div class="card-footer"><a href="venta8.html" class="btn btn-primary">Comprar</a > < /div></div > '
 
+                );
+                console.log(json[index]);
+
+            }
+        });
+    </script>
     <title>J y M PHONE'S</title>
 </head>
 
 <body>
-
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">J Y M PHONE'S</a>
@@ -94,10 +108,12 @@
             <h1 class="text-light">DESTACADOS</h1>
         </header>
         <section>
+
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-sm text-center">
                         <div class="card-group">
+                            <div id="productos"></div>
                             <div class="card">
                                 <img src="img/iphone11recomendado.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">

@@ -1,0 +1,37 @@
+[{
+        "nombre": "Iphone 11",
+        "color": "black",
+        "caracteristica": "128gb",
+        "precio": "$189,900"
+    },
+    {
+        "nombre": "Moto G100",
+        "color": "no especifica",
+        "caracteristica": "128Gb - 8Gb ram",
+        "precio": "$89,999"
+    },
+    {
+        "nombre": "SAMSUNG A52",
+        "color": "no especifica",
+        "caracteristica": "128Gb - 6Gb ram",
+        "precio": "$58,999"
+    },
+    {
+        "nombre": "SAMSUNG S20",
+        "color": "no especifica",
+        "caracteristica": "128Gb - 6Gb ram",
+        "precio": "$76,999"
+    },
+    {
+        "nombre": "IPHONE SE",
+        "color": "no especifica",
+        "caracteristica": "2da. Gen. - 64Gb",
+        "precio": "$133,999"
+    },
+    {
+        "nombre": "MOTO EDGE",
+        "color": "no especifica",
+        "caracteristica": "256Gb - 6Gb ram",
+        "precio": "119,999"
+    }
+]

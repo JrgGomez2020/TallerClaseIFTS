@@ -36,4 +36,6 @@ function validar() {
         return false;
     }
     $('#exampleModal').modal('show');
+    $('#formulario').modal('show');
+
 }
