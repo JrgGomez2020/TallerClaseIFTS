@@ -2,36 +2,43 @@
         "nombre": "Iphone 11",
         "color": "black",
         "caracteristica": "128gb",
-        "precio": "$189,900"
+        "precio": "$189,900",
+        "imagen": "img/iphone11recomendado.jpg"
+
     },
     {
         "nombre": "Moto G100",
         "color": "no especifica",
         "caracteristica": "128Gb - 8Gb ram",
-        "precio": "$89,999"
+        "precio": "$89,999",
+        "imagen": "img/recomendado1.webp"
     },
     {
         "nombre": "SAMSUNG A52",
         "color": "no especifica",
         "caracteristica": "128Gb - 6Gb ram",
-        "precio": "$58,999"
+        "precio": "$58,999",
+        "imagen": "img/recomendado4.jpg"
     },
     {
         "nombre": "SAMSUNG S20",
         "color": "no especifica",
         "caracteristica": "128Gb - 6Gb ram",
-        "precio": "$76,999"
+        "precio": "$76,999",
+        "imagen": "img/recomendado5.jpg"
     },
     {
         "nombre": "IPHONE SE",
         "color": "no especifica",
         "caracteristica": "2da. Gen. - 64Gb",
-        "precio": "$133,999"
+        "precio": "$133,999",
+        "imagen": "img/iphonese2020recomendado.jpg"
     },
     {
         "nombre": "MOTO EDGE",
         "color": "no especifica",
         "caracteristica": "256Gb - 6Gb ram",
-        "precio": "119,999"
+        "precio": "119,999",
+        "imagen": "img/motoedgerecomendado.jpg"
     }
 ]

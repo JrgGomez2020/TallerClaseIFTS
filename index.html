@@ -21,7 +21,7 @@
             console.log(productos);
             var divproductos = $('#productos');
             for (let index = 0; index < json.length; index++) {
-                divproductos.append('<div class="card"><img src="img/iphone11recomendado.jpg" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">' + json[index].nombre + '</h5><p class="card-text">' + json[index].caracteristica + '</p><p class="card-text">' + json[index].precio + '</p > < /div><div class="card-footer"><a href="venta8.html" class="btn btn-primary">Comprar</a > < /div></div > '
+                divproductos.append('<div class="card"><img src="' + json[index].imagen + '" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">' + json[index].nombre + '</h5><p class="card-text">' + json[index].caracteristica + '</p><p class="card-text">' + json[index].precio + '</p > <a href="venta8.html" class="btn btn-primary">Comprar</a > '
 
                 );
                 console.log(json[index]);
@@ -53,7 +53,7 @@
                             <a class="nav-link active" aria-current="page" href="Contactenos2.html">CONTACTO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="Formulario2.html">REGISTRARSE</a>
+                            <a class="nav-link active" aria-current="page" href="Registro.html">REGISTRARSE</a>
                         </li>
                         <form class="d-flex">
                             <a class="btn btn-primary btn-primary-outline-success" type="button" href="iniciarSesion.html">INICIAR SESION</a>
@@ -113,73 +113,9 @@
                 <div class="row">
                     <div class="col-12 col-sm text-center">
                         <div class="card-group">
-                            <div id="productos"></div>
-                            <div class="card">
-                                <img src="img/iphone11recomendado.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">IPHONE 11</h5>
-                                    <p class="card-text">128Gb - Black</p>
-                                    <p class="card-text">$189,999</p>
-                                </div>
-                                <div class="card-footer">
-                                    <a href="venta8.html" class="btn btn-primary">Comprar</a>
-                                </div>
+                            <div id="productos">
                             </div>
-                            <div class="card">
-                                <img src="img/recomendado1.webp" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">MOTO G100</h5>
-                                    <p class="card-text">128Gb - 8Gb ram</p>
-                                    <p class="card-text">$89,999</p>
-                                </div>
-                                <div class="card-footer">
-                                    <a href="venta9.html" class="btn btn-primary">Comprar</a>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <img src="img/recomendado4.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">SAMSUNG A52</h5>
-                                    <p class="card-text">128Gb - 6Gb ram</p>
-                                    <p class="card-text">$58,999</p>
-                                </div>
-                                <div class="card-footer">
-                                    <a href="venta10.html" class="btn btn-primary">Comprar</a>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <img src="img/recomendado5.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">SAMSUNG S20</h5>
-                                    <p class="card-text">128Gb - 6Gb ram</p>
-                                    <p class="card-text">$76,999</p>
-                                </div>
-                                <div class="card-footer">
-                                    <a href="venta12.html" class="btn btn-primary">Comprar</a>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <img src="img/iphonese2020recomendado.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">IPHONE SE</h5>
-                                    <p class="card-text">2da. Gen. - 64Gb</p>
-                                    <p class="card-text">$133,999</p>
-                                </div>
-                                <div class="card-footer">
-                                    <a href="venta13.html" class="btn btn-primary">Comprar</a>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <img src="img/motoedgerecomendado.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">MOTO EDGE</h5>
-                                    <p class="card-text">256Gb - 6Gb ram</p>
-                                    <p class="card-text">119,999</p>
-                                </div>
-                                <div class="card-footer">
-                                    <a href="venta14.html" class="btn btn-primary">Comprar</a>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
